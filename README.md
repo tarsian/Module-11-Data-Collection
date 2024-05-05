@@ -22,13 +22,13 @@ Open the Jupyter Notebook in the starter code folder named "part_2_mars_weather.
   1.  Use automated browsing to visit the [Mars Temperature Data SiteLinks](https://static.bc-edx.com/data/web/mars_facts/temperature.html.) to an external site.
   2.  Create a Beautiful Soup object and use it to scrape the data in the HTML table. Note that this can also be achieved by using the Pandas read_html function. However, use Beautiful Soup here to continue sharpening your web scraping skills.
   3.  Assemble the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
-      -  <t>$\it{\small{\color{#DD6565}'id' }}$</t>: the identification number of a single transmission from the Curiosity rover
-      -  <t>$\it{\small{\color{#DD6565}'terrestrial_date', }}$</t>: the date on Earth
-      -  <t>$\it{\small{\color{#DD6565}'sol' }}$</t>: the number of elapsed sols (Martian days) since Curiosity landed on Mars
-      -  <t>$\it{\small{\color{#DD6565}'ls' }}$</t>: the solar longitude
-      -  <t>$\it{\small{\color{#DD6565}'month' }}$</t>: the Martian month
-      -  <t>$\it{\small{\color{#DD6565}'min_temp' }}$</t>: the minimum temperature, in Celsius, of a single Martian day (sol)
-      -  <t>$\it{\small{\color{#DD6565}'pressure'  }}$</t>: The atmospheric pressure at Curiosity's location
+      -  <t>$\it{\small{\color{#DD6565}id }}$</t>: the identification number of a single transmission from the Curiosity rover
+      -  <t>$\it{\small{\color{#DD6565}terrestrial__date }}$</t>: the date on Earth
+      -  <t>$\it{\small{\color{#DD6565}sol }}$</t>: the number of elapsed sols (Martian days) since Curiosity landed on Mars
+      -  <t>$\it{\small{\color{#DD6565}ls }}$</t>: the solar longitude
+      -  <t>$\it{\small{\color{#DD6565}month }}$</t>: the Martian month
+      -  <t>$\it{\small{\color{#DD6565}min__temp }}$</t>: the minimum temperature, in Celsius, of a single Martian day (sol)
+      -  <t>$\it{\small{\color{#DD6565}pressure  }}$</t>: The atmospheric pressure at Curiosity's location
     
   4.  Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types.
   5.  Analyze your dataset by using Pandas functions to answer the following questions:

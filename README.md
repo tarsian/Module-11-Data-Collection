@@ -22,7 +22,7 @@ Open the Jupyter Notebook in the starter code folder named "part_2_mars_weather.
   1.  Use automated browsing to visit the [Mars Temperature Data SiteLinks](https://static.bc-edx.com/data/web/mars_facts/temperature.html.) to an external site.
   2.  Create a Beautiful Soup object and use it to scrape the data in the HTML table. Note that this can also be achieved by using the Pandas read_html function. However, use Beautiful Soup here to continue sharpening your web scraping skills.
   3.  Assemble the scraped data into a Pandas DataFrame. The columns should have the same headings as the table on the website. Here’s an explanation of the column headings:
-      -  <p>$\it{\small{\color{#DD6565}id}}$</p>: the identification number of a single transmission from the Curiosity rover
+      -  <t>$\it{\small{\color{#DD6565}id}}$</t>: the identification number of a single transmission from the Curiosity rover
       -  terrestrial_date: the date on Earth
       -  sol: the number of elapsed sols (Martian days) since Curiosity landed on Mars
       -  ls: the solar longitude
